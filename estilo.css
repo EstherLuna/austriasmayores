@@ -1,0 +1,167 @@
+							/* Texto */
+
+h1 {
+font-family: Bookman Old Style, "Times New Roman", sans-serif;
+color: white;
+text-align: center;
+text-shadow: 3px 2px brown;
+}
+
+h2 {
+font-family: Georgia, "Times New Roman", sans-serif;
+color: white;
+text-align: top;
+}
+
+h3 {
+font-family: Georgia, "Times New Roman", sans-serif;
+color: white;
+text-align: top;
+}
+
+h4 {
+font-family: Georgia, "Times New Roman", sans-serif;
+color: white;
+text-align: top;
+}
+
+body {
+padding: 1em 10em 10em 10em;
+colour: white;
+font-family: Times New Roman, sans-serif;
+line-height: 1.5;
+letter-spacing: 0.5px;
+text-align: justify;
+background-image: url("fotos/biblioteca.jpg");
+}
+
+p {
+color: white;
+text-indent: 45px;
+padding: 10px;
+}
+
+p:active {
+background-color: black;
+color: #CBDCFF;
+}
+
+p:first-letter {
+color: white;
+font-family: Bookman Old Style;
+font-size: 180%;
+}
+
+							/* Imágenes */
+
+
+img.reyes {
+float: left;
+margin-right: 25px;
+}
+
+img.fotos {
+display: block;
+margin: auto;
+}
+
+img.construccion {
+display:block;
+margin:auto;  
+}
+
+							/* Enlaces */
+
+a:link {
+color: blue;
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+color: purple;
+}
+
+							/* Listas */
+
+.listas {
+list-style-type: square;
+margin: 5px;
+color: white;
+}
+
+ol {
+margin: 5px;
+color: white;
+}
+
+							/* Tablas */
+
+table tr {
+text-align: center;
+}
+
+table tr:nth-child(3) {
+text-align: left;
+}
+
+							/* Vídeos */
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+						/* Menú del inicio */
+
+
+
+#header {
+margin-top: 40px;
+margin-bottom: 100px;
+margin-right: 0px;
+margin-left: 0px;
+width:1000px;
+font-family: Bookman Old Style, "Times New Roman", sans-serif;
+}
+
+ul {
+list-style:none;
+}
+
+.nav > li {
+float:left;
+}
+
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:150px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
